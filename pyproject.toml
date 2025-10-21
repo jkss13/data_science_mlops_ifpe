@@ -1,5 +1,5 @@
 [project]
-name = "data-science-mlops-ifpe"
+name = "datasciencemlopsifpe"
 version = "0.1.0"
 description = "A complete DS/MLOps project."
 authors = [
@@ -15,6 +15,15 @@ dependencies = [
 pytest = "^7.4.0"
 ipykernel = "^6.25.2"
 ipython = "<8.16.0"
+
+[tool.poetry]
+name = "data-science-mlops-ifpe"
+version = "0.1.0"
+description = ""
+authors = ["Seu Nome <email@exemplo.com>"]
+packages = [
+    { include = "src" }
+]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
