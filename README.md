@@ -1,15 +1,28 @@
-# Data Science Project
+# DS_PROJECT
 
-This is a complete DataScience/MLOps project.
+This is a complete Data Science/MLOps project. 
 
-## Bibliotecas
+## Installation
 
-### Instalar dependências:
-```
-pipx install poetry
+Install poetry
+
+```{bash}
+pipx install poetry 
 poetry config virtualenvs.in-project true --local
 poetry init
 ```
 
-### Ativar ambiente: 
-`source .venv/bin/activate`
+Activate venv
+
+```
+ source .venv/bin/activate
+```
+
+## Run the dsproject app
+
+```
+import dsproject as dsp
+dsp.run_dsproject_app()
+```
+
+![dsproject](src/dsproject/app/app.png)
